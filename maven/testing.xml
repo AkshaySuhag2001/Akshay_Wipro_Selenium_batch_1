@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="My Facebook Tests">
+    
+    <test name="Facebook Post Test">
+        <classes>
+            <class name="sel_day27.facebook_post"/>
+        </classes>
+    </test>
+    
+</suite>

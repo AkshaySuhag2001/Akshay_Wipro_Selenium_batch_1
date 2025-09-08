@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="My Suite">
+    <listeners>
+    <listener class-name = "sel_day30.MyTransformer"/>
+    </listeners>
+    <test name="Tests">
+    <classes>
+      <class name="sel_day30.TestTransformer"/>
+    </classes>
+  </test>
+ 
+</suite>
