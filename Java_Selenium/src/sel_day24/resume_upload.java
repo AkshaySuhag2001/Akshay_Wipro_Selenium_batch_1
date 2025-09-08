@@ -18,8 +18,8 @@ public class resume_upload {
         try {
             driver.get("https://www.naukri.com/nlogin/login");
 
-            driver.findElement(By.id("usernameField")).sendKeys("akshaysuhag2001@gmail.com");
-            driver.findElement(By.id("passwordField")).sendKeys("f4$UshJ!#fwqT9d");
+            driver.findElement(By.id("usernameField")).sendKeys("");
+            driver.findElement(By.id("passwordField")).sendKeys("");
             driver.findElement(By.xpath("//button[text()='Login']")).click();
 
             Thread.sleep(5000);
@@ -41,3 +41,4 @@ public class resume_upload {
         }
     }
 }
+
