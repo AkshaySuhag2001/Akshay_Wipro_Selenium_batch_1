@@ -21,9 +21,9 @@ public class AmazonLogin {
 
 	@When("I enter valid email and password")
 	public void i_enter_valid_email_and_password() {
-		driver.findElement(By.id("ap_email")).sendKeys("akshaysuhag2001@gmail.com");
+		driver.findElement(By.id("ap_email")).sendKeys("");
 		driver.findElement(By.id("continue")).click();
-		driver.findElement(By.id("ap_password")).sendKeys("akshaysuhag96718230142001");
+		driver.findElement(By.id("ap_password")).sendKeys("");
 	}
 
 	@When("I click on login button")
@@ -42,3 +42,4 @@ public class AmazonLogin {
 		driver.quit();
 	}
 }
+
